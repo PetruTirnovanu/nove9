@@ -1,0 +1,36 @@
+h2 {color: green; 
+    background: #598;
+    padding: 40px;
+    margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #999;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+li {
+  float: left; 
+}
+
+li a {
+  display: inline block;
+  color: black;
+  text-align: center;
+  padding: 5px 130px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
